@@ -15,5 +15,11 @@ xmlhtp.send();
 function jsonData(json_object)
 {
     var javascript_object = JSON.parse(json_object);
-    console.log(javascript_object);
+    // console.log(javascript_object);
+    for(x in javascript_object.person){
+        var persons = javascript_object.person; 
+        for (y in persons[x]) {
+            console.log(persons[x][y]);
+        }
+    }
 }
