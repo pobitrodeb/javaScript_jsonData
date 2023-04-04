@@ -1,0 +1,8 @@
+{
+    "person" : [
+        {"name":"pobitro","age":23,"town":"Thakurgon","marrid":false,"dob":"1-98-2001","test_null":null},
+        {"name":"rahul","age":24,"town":"ranjpur","marrid":true,"dob":"1-98-2001","test_null":null},
+        {"name":"bimol","age":25,"town":"dinajpur","marrid":false,"dob":"1-98-2001","test_null":null}
+    ]
+   
+}
